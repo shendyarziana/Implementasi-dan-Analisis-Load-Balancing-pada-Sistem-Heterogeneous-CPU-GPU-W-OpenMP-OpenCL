@@ -769,8 +769,7 @@ Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur
 * 👤 **Mochammad Nasrudin** (NIM: `25032014061`)
 * 👤 **Muhammad Ferdiansyah** (NIM: `25032014091`)
 
-**Dosen Pengampu:**  
-* Dr. Widi Aribowo, S.T., M.T.  
+**Dosen Pengampu:**   
 * Harmon Prayogi, M.Sc.
 
 ---
