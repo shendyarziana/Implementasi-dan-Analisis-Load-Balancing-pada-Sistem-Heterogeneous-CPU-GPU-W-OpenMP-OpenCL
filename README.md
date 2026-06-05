@@ -459,8 +459,8 @@ Untuk pertanyaan atau issues:
 
 <div align="center">
 
-**Made with ❤️ for Heterogeneous Computing Education**
+**Made with ❤️ for Project Uas Arsitektur dan Komputer**
 
-*2024-2025*
+*2025-2026*
 
 </div>
