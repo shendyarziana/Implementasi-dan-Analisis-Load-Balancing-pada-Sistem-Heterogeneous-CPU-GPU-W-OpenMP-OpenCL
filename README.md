@@ -761,6 +761,20 @@ Untuk pertanyaan atau issues:
 
 ---
 
+## 👥 Kelompok Penyusun
+
+Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur dan Sistem Komputer** (Program Studi S1 Kecerdasan Artifisial, Kelas 2025B, FMIPA, Universitas Negeri Surabaya):
+
+* 👤 **Shendy Arziana Cahyani** (NIM: `25032014079`)
+* 👤 **Mochammad Nasrudin** (NIM: `25032014061`)
+* 👤 **Muhammad Ferdiansyah** (NIM: `25032014091`)
+
+**Dosen Pengampu:**  
+* Dr. Widi Aribowo, S.T., M.T.  
+* Harmon Prayogi, M.Sc.
+
+---
+
 <div align="center">
 
 **Made with ❤️ for Project Uas Arsitektur dan Komputer**
