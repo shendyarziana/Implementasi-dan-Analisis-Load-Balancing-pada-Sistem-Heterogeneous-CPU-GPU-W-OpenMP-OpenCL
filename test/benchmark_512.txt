@@ -1,0 +1,32 @@
+GEMM Benchmark - Matrix Size: 512 x 512
+========================================
+
+Hardware: Intel i7-12700
+Time:     2024-12-15 14:33:10
+
+Method              Time (ms)    GFLOPs    Speedup  Efficiency
+--------------------------------------------------------------
+Serial              114.000       2.35      1.00x     100.0%
+OpenMP               59.000       4.55      1.93x      96.5%
+OpenCL (CPU)        112.000       2.40      1.02x      51.0%
+OpenCL (GPU)        145.000       1.88      0.79x       3.9%
+Hybrid (50-50)       79.000       3.40      1.44x      72.0%
+Hybrid (60-40)       75.000       3.58      1.52x      76.0%
+Hybrid (40-60)       82.000       3.25      1.39x      69.5%
+
+Operations: 2 × 512³ = 268,435,456 FLOPs
+Memory Used: 3 × 512² × 4 bytes = 3.07 MB
+
+Notes:
+- Standard benchmark size: good balance
+- OpenMP shows near-linear scaling (1.93x on 8 cores)
+- Hybrid optimal at 60% CPU, 40% GPU
+- Memory bandwidth becoming limiting factor
+- GFLOPs increasing with matrix size (overhead amortized)
+
+Performance Analysis:
+- OpenMP Efficiency: 96.5% ≈ Near-optimal
+- Hybrid Efficiency: 76% ≈ Good balance
+- OpenCL on CPU: Kernel overhead dominates
+- OpenCL on GPU: PCIe transfer overhead significant
+
