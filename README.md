@@ -357,7 +357,7 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 ---
 
 ## 🚀 Langkah-langkah cara menjalankan / cara simulasi
-## ▶️ Cara Menjalankan Program
+
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/shendyarziana/Implementasi-dan-Analisis-Load-Balancing-pada-Sistem-Heterogeneous-CPU-GPU-W-OpenMP-OpenCL.git
