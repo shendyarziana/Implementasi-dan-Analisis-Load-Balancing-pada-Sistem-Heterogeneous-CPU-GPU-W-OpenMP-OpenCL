@@ -56,6 +56,7 @@ Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur
 
 ---
 🎓 Link presentasi
+
 Video presentasi dan demonstrasi proyek dapat diakses melalui tautan berikut:
 🔗 https://youtu.be/caMbmI0QTII?feature=shared
 ---
@@ -86,6 +87,7 @@ Proyek ini mengimplementasikan **General Matrix Multiplication (GEMM)** dengan e
 ---
 
 ## 💡 Konsep Inti
+
 ### 🔷 Heterogeneous Computing: Mengapa?
 
 Dalam era modern, saturasi Moore's Law membuat pertumbuhan performa single-core CPU melambat. Solusi adalah memanfaatkan **multiple processing elements** dengan karakteristik berbeda:
@@ -170,6 +172,7 @@ Execution Model: CPU dan GPU run CONCURRENTLY
 ---
 
 ## 🏗️ Arsitektur Implementasi
+
 Proyek ini menyediakan **4 implementasi GEMM** dengan kompleksitas dan performa berbeda:
 
 ### 1️⃣ Serial Implementation (Baseline)
@@ -227,6 +230,7 @@ Proyek ini menyediakan **4 implementasi GEMM** dengan kompleksitas dan performa 
 ---
 
 ## 📈 Scalability Analysis
+
 ### Dimensional Scaling (Matrix Size N)
 
 **Strong Scaling** — Speedup meningkat dengan N (parallelization overhead amortized):
@@ -273,6 +277,7 @@ Speedup
 ---
 
 ## 🔴 Bottleneck Analysis
+
 ### Primary Bottleneck: Memory Bandwidth
 
 **Problem**: GEMM is **memory-bound computation**
@@ -312,6 +317,7 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 ---
 
 ## ⚡ Efisiensi Performance Metrics
+
 **Hardware Reference**: Intel i7-12700 (8 P-cores @ 3.6 GHz + 4 E-cores @ 2.7 GHz)
 
 ### Execution Time & GFLOPs Comparison
