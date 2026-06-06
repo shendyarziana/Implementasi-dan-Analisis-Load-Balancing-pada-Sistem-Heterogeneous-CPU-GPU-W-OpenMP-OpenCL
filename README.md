@@ -42,13 +42,13 @@ Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur
 ## 👥 Kelompok Penyusun
 
 👤 Shendy Arziana Cahyani (25032014079)
-- GitHub: @shendyarziana
+- GitHub: https://github.com/shendyarziana
 
 👤 Mochammad Nasrudin (25032014061)
-- GitHub: @Seiryu404
+- GitHub: https://github.com/Seiryu404
 
 👤 Muhammad Ferdiansyah (25032014091)
-- GitHub: @RMZ-coder
+- GitHub: https://github.com/RMZ-coder
   
 **Dosen Pengampu:**   
 * Harmon Prayogi, M.Sc.
