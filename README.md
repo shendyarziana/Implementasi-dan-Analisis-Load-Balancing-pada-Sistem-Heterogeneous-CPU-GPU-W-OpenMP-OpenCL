@@ -53,17 +53,15 @@ Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur
 ---
 
 ---
-🎓 Link presentasi
+🎓 **Link presentasi**
 
-
-Video presentasi dan demonstrasi proyek dapat diakses melalui tautan berikut:
+ Video presentasi dan demonstrasi proyek dapat diakses melalui tautan berikut:
 🔗 https://youtu.be/caMbmI0QTII?feature=shared
 ---
 
 ## ✨ Gambaran Umum
 
 Proyek ini mengimplementasikan **General Matrix Multiplication (GEMM)** dengan empat pendekatan parallelisasi berbeda untuk mendemonstrasikan bagaimana heterogeneous computing dapat mengoptimalkan performa komputasi. Dari implementasi serial baseline hingga hybrid CPU-GPU load balancing, proyek ini memberikan insight mendalam tentang trade-off antara kompleksitas implementasi dan performa aktual.
-
 **Status**: ✅ **Production Ready** — Sudah dioptimasi dan ditest pada Windows dengan hasil performa terukur.
 
 **Key Features**:
