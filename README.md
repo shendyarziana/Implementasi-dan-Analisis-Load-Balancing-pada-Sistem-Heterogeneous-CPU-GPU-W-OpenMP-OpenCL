@@ -38,9 +38,6 @@
 ## 👥 Informasi Tim Penyusun
 
 Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur dan Sistem Komputer** (Program Studi S1 Kecerdasan Artifisial, Kelas 2025B, FMIPA, Universitas Negeri Surabaya):
-
-## 👥 Kelompok Penyusun
-
 👤 Shendy Arziana Cahyani (25032014079)
 - GitHub: https://github.com/shendyarziana
 
