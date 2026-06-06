@@ -39,13 +39,19 @@
 
 Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur dan Sistem Komputer** (Program Studi S1 Kecerdasan Artifisial, Kelas 2025B, FMIPA, Universitas Negeri Surabaya):
 
-* 👤 **Shendy Arziana Cahyani** (NIM: `25032014079`)
-* 👤 **Mochammad Nasrudin** (NIM: `25032014061`)
-* 👤 **Muhammad Ferdiansyah** (NIM: `25032014091`)
+## 👥 Kelompok Penyusun
 
+👤 Shendy Arziana Cahyani (25032014079)
+- GitHub: @shendyarziana
+
+👤 Mochammad Nasrudin (25032014061)
+- GitHub: @Seiryu404
+
+👤 Muhammad Ferdiansyah (25032014091)
+- GitHub: @RMZ-coder
+  
 **Dosen Pengampu:**   
 * Harmon Prayogi, M.Sc.
-
 ---
 
 ---
