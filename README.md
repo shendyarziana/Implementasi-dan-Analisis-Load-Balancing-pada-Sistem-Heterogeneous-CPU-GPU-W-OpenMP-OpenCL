@@ -16,7 +16,8 @@
 ---
 
 ## 📋 Daftar Isi
-
+- [👥 Informasi Tim Penyusun](#-informasi-tim-penyusun)
+- [🎓 Link presentasi](-link-presentasi)
 - [✨ Gambaran Umum](#-gambaran-umum)
 - [🎯 Tujuan Proyek](#-tujuan-proyek)
 - [💡 Konsep Inti](#-konsep-inti)
@@ -30,6 +31,25 @@
 - [🔬 Metodologi Teknis](#-metodologi-teknis)
 - [🔧 Troubleshooting](#-troubleshooting)
 - [📚 Referensi](#-referensi)
+
+
+---
+
+## 👥 Informasi Tim Penyusun
+
+Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur dan Sistem Komputer** (Program Studi S1 Kecerdasan Artifisial, Kelas 2025B, FMIPA, Universitas Negeri Surabaya):
+
+* 👤 **Shendy Arziana Cahyani** (NIM: `25032014079`)
+* 👤 **Mochammad Nasrudin** (NIM: `25032014061`)
+* 👤 **Muhammad Ferdiansyah** (NIM: `25032014091`)
+
+**Dosen Pengampu:**   
+* Harmon Prayogi, M.Sc.
+
+---
+
+---
+🎓 Link presentasi
 
 ---
 
@@ -59,7 +79,6 @@ Proyek ini mengimplementasikan **General Matrix Multiplication (GEMM)** dengan e
 ---
 
 ## 💡 Konsep Inti
-
 ### 🔷 Heterogeneous Computing: Mengapa?
 
 Dalam era modern, saturasi Moore's Law membuat pertumbuhan performa single-core CPU melambat. Solusi adalah memanfaatkan **multiple processing elements** dengan karakteristik berbeda:
@@ -144,7 +163,6 @@ Execution Model: CPU dan GPU run CONCURRENTLY
 ---
 
 ## 🏗️ Arsitektur Implementasi
-
 Proyek ini menyediakan **4 implementasi GEMM** dengan kompleksitas dan performa berbeda:
 
 ### 1️⃣ Serial Implementation (Baseline)
@@ -202,7 +220,6 @@ Proyek ini menyediakan **4 implementasi GEMM** dengan kompleksitas dan performa 
 ---
 
 ## 📈 Scalability Analysis
-
 ### Dimensional Scaling (Matrix Size N)
 
 **Strong Scaling** — Speedup meningkat dengan N (parallelization overhead amortized):
@@ -249,7 +266,6 @@ Speedup
 ---
 
 ## 🔴 Bottleneck Analysis
-
 ### Primary Bottleneck: Memory Bandwidth
 
 **Problem**: GEMM is **memory-bound computation**
@@ -289,7 +305,6 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 ---
 
 ## ⚡ Efisiensi Performance Metrics
-
 **Hardware Reference**: Intel i7-12700 (8 P-cores @ 3.6 GHz + 4 E-cores @ 2.7 GHz)
 
 ### Execution Time & GFLOPs Comparison
@@ -312,7 +327,6 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 | Hybrid (60-40) | 1080 | 4.95 | 1.50x | **75.0%** | 135W |
 
 ### 📊 Key Performance Insights
-
 ✅ **OpenMP Excellence**: Near-linear scaling (3.97x on 8 cores) dengan 99% efficiency!
 ✅ **Hybrid Sweet Spot**: Demonstrates heterogeneous computing principles dengan 75% efficiency
 ✅ **Load Balancing Impact**: Optimal CPU ratio ≈ 60%, showing importance of tuning
@@ -320,7 +334,6 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 ✅ **Energy Efficiency**: OpenMP provides best power-performance ratio (59 MFLOPs/W)
 
 ### Energy Efficiency Analysis
-
 | Metode | Energy (J) | MFLOPs/W | Rank |
 |:---|---:|---:|:---:|
 | Serial | 105 | 25 | 3 |
@@ -328,7 +341,6 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 | Hybrid | 148 | 36 | 2 |
 
 **Conclusion**: OpenMP best for power-performance trade-off! (6x better than Serial)
-
 📖 **Lihat [docs/benchmark.md](docs/benchmark.md) untuk detailed visualization & analysis**
 📖 **Lihat [docs/analysis.md](docs/analysis.md) untuk efficiency table lengkap**
 
@@ -411,10 +423,7 @@ Hybrid (50-50)        79.000       3.40    1.44x
 
 ---
 
-## � Documentation Guide (Panduan Dokumentasi)
-
-Proyek ini dilengkapi dengan dokumentasi teknis yang komprehensif:
-
+## � Panduan fungsi sistem
 ### 📊 Untuk Analisis Performa & Visualisasi:
 👉 **[docs/benchmark.md](docs/benchmark.md)** — Detailed benchmark results dengan:
 - Execution time comparison charts
@@ -727,32 +736,6 @@ Actual Memory Limit: ~13 GFLOPs (based on 50 GB/s bandwidth)
 
 ---
 
-## 📄 Lisensi
-
-Proyek ini dirilis di bawah **MIT License** — bebas digunakan untuk tujuan akademis maupun komersial.
-
-```
-MIT License
-
-Copyright (c) 2024-2025 Heterogeneous GEMM Computing Project
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
----
-
 ## 🎓 Pengembangan Lebih Lanjut
 
 ### Ide untuk Enhancement
@@ -794,20 +777,6 @@ Untuk pertanyaan atau issues:
 3. Baca **Troubleshooting** section di atas
 4. Review code comments di `src/` directory
 
----
-
-## 👥 Kelompok Penyusun
-
-Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur dan Sistem Komputer** (Program Studi S1 Kecerdasan Artifisial, Kelas 2025B, FMIPA, Universitas Negeri Surabaya):
-
-* 👤 **Shendy Arziana Cahyani** (NIM: `25032014079`)
-* 👤 **Mochammad Nasrudin** (NIM: `25032014061`)
-* 👤 **Muhammad Ferdiansyah** (NIM: `25032014091`)
-
-**Dosen Pengampu:**   
-* Harmon Prayogi, M.Sc.
-
----
 
 <div align="center">
 
