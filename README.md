@@ -25,7 +25,7 @@
 - [📈 Scalability Analysis](#-scalability-analysis)
 - [🔴 Bottleneck Analysis](#-bottleneck-analysis)
 - [⚡ Performa & Hasil](#-performa--hasil)
-- [🚀 Panduan Cepat](#-panduan-cepat)
+- [🚀 Langkah-langkah cara menjalankan / cara simulasi](#-langkah--langkah-cara-menjalankan--cara-simulasi)
 - [📁 Struktur Proyek](#-struktur-proyek)
 - [🔬 Metodologi Teknis](#-metodologi-teknis)
 - [🔧 Troubleshooting](#-troubleshooting)
@@ -334,7 +334,42 @@ For N=1024: PCIe transfer overhead ≈ 0.03% (negligible!)
 
 ---
 
-## 🚀 Panduan Cepat
+## 🚀 Langkah-langkah cara menjalankan / cara simulasi
+## ▶️ Cara Menjalankan Program
+### 1. Clone Repository
+```bash
+git clone https://github.com/shendyarziana/Implementasi-dan-Analisis-Load-Balancing-pada-Sistem-Heterogeneous-CPU-GPU-W-OpenMP-OpenCL.git
+```
+### 2. Masuk ke Folder Proyek
+```bash
+cd Implementasi-dan-Analisis-Load-Balancing-pada-Sistem-Heterogeneous-CPU-GPU-W-OpenMP-OpenCL
+```
+### 3. Build Program
+```bash
+build.bat
+```
+### 4. Jalankan Program
+```bash
+bin/gemm_benchmark.exe 256
+```
+atau
+```bash
+bin/gemm_benchmark.exe 512
+```
+atau
+```bash
+bin/gemm_benchmark.exe 1024
+```
+
+### 5. Hasil yang Akan Muncul
+
+Program akan menampilkan:
+
+- Execution Time
+- GFLOPs
+- Speedup
+- Efficiency
+- Perbandingan Serial, OpenMP, OpenCL, dan Hybrid
 
 ### ✔️ Prerequisites
 
