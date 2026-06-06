@@ -51,8 +51,8 @@ Proyek penelitian mandiri ini disusun oleh Kelompok UAS Mata Kuliah **Arsitektur
 **Dosen Pengampu:**   
 * Harmon Prayogi, M.Sc.
 ---
-
-##🎓 **Link presentasi**
+---
+## 🎓 Link presentasi
 
  Video presentasi dan demonstrasi proyek dapat diakses melalui tautan berikut:
 🔗 https://youtu.be/caMbmI0QTII?feature=shared
